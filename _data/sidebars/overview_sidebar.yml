@@ -1,0 +1,61 @@
+entries:
+- title: STU3 | FHIR Audit & Transparency |
+  product: STU3 | FHIR Audit & Transparency |
+  version: 1.0.0-alpha |
+  levels: one
+  folders:
+
+  - title: Overview
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /index.html
+      output: web, pdf
+      type: homepage
+    - title: Guide Versioning
+      url: /overview_guide_versioning.html
+      output: web
+    - title: Release Notes
+      url: /overview_release_notes.html
+      output: web
+    - title: Glossary
+      url: /overview_glossary.html
+      output: web
+
+
+  - title: Interaction
+    output: web
+    folderitems:
+    - title: Request
+      url: /api_request.html
+      output: web
+    - title: Response
+      url: /api_response.html
+      output: web 
+          
+      
+  - title: FHIR Resources
+    output: web
+    folderitems:
+    - title: Overview FHIR Profiles
+      url: /explore.html
+      output: web
+    - title: OperationDefinition
+      url: /api_uec_appointments_entity_patient.html
+      output: web
+    - title: List
+      url: /api_uec_appointments_entity_practitioner.html
+      output: web
+    - title: Patient
+      url: /api_uec_appointments_entity_practitioner_role.html
+      output: web
+    - title: Organisation
+      url: /api_uec_appointments_organisation.html
+      output: web
+  
+  - title: Help & Support
+    output: web
+    folderitems:
+    - title: Frequently Asked Questions (FAQ)
+      url: /support_faq.html
+      output: web
