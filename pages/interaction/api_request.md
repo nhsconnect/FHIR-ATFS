@@ -1,5 +1,5 @@
 ---
-title: Overview | ATFS Request API
+title: Overview | Request API
 keywords: design, overview
 tags: [design, overview]
 sidebar: foundations_sidebar
@@ -9,7 +9,9 @@ summary: "Describes the API interaction to request the audit data"
 
 {% include important.html content="All information provided below is indicative and subject to on-going review." %}
 
-This  section contains descriptions of approaches and suggestions for building APIs including an example Reference Implementation.
+This section contains descriptions of approaches and suggestions for building APIs including an example Reference Implementation.
 
-## Request API ##
+The Audit and Transparency service will send a request to the Spine to retrieve the audit data.
+
+The request will be defined using the resource OperationDefinition resource. This resource will allow you to define the parameters to send to the Spine and also defines the output resource.
 
