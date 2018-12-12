@@ -11,8 +11,10 @@ summary: "Describes the API interaction to request the audit data"
 
 The Audit and Transparency service will send a request to the Spine to retrieve the audit data.
 
-The request will be submitted via an operation. This operation will be defined using the FHIR resource OperationDefinition resource. This resource will allow you to define the parameters to send to the Spine and also defines the output resource.
+The request will be submitted via an operation and it will be defined using the FHIR OperationDefinition resource. This resource will allow you to define the parameters to send to the Spine and also defines the output resource.
 
 The image below illustrates the flow of data to and from the Spine.
 
 <img src="images/atfs/atfs-operation.png">
+
+More information about the OperationDefinition resource can be found [here]().
