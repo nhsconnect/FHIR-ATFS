@@ -37,21 +37,22 @@ entries:
   - title: FHIR Resources
     output: web
     folderitems:
-    - title: Overview FHIR Profiles
-      url: /explore.html
+    - title: Overview
+      url: /resource_overview.html
+      output: web
+    - title: AuditEvent
+      url: /atfs_auditevent.html
       output: web
     - title: OperationDefinition
-      url: /api_uec_appointments_entity_patient.html
+      url: /atfs_operationdefinition.html
       output: web
-    - title: List
-      url: /api_uec_appointments_entity_practitioner.html
+    - title: Organization
+      url: /atfs_organisation.html
       output: web
     - title: Patient
-      url: /api_uec_appointments_entity_practitioner_role.html
+      url: /atfs_patient.html
       output: web
-    - title: Organisation
-      url: /api_uec_appointments_organisation.html
-      output: web
+
   
   - title: Help & Support
     output: web

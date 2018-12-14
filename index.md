@@ -11,7 +11,7 @@ summary: A brief introduction to getting started with the FHIR Audit & Transpare
 
 # Introduction #
 
-This API will allow a patient to find out who has accessed their records. This is in line from the commitment set out from a recent published report<sup>1</sup> that the **Public will be able to access a digital service that enables them to see who has accessed their summary care record.**
+This API will allow a patient to find out who has accessed their records. This is in line from the commitment set out from a recent published report<sup>1</sup> that the *Public will be able to access a digital service that enables them to see who has accessed their summary care record.*
 
 NHS Digital have the responsibility to deliver this commitment and will proceeded with Discovery to understand the user need and demand for the service and to explore a range of possible solution offerings.
 
