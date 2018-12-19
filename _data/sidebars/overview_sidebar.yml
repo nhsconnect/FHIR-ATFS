@@ -47,7 +47,7 @@ entries:
       url: /atfs_operationdefinition.html
       output: web
     - title: Organization
-      url: /atfs_organisation.html
+      url: /atfs_organization.html
       output: web
     - title: Patient
       url: /atfs_patient.html
