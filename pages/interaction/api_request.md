@@ -9,12 +9,15 @@ summary: "Describes the API interaction to request the audit data"
 
 {% include important.html content="All information provided below is indicative and subject to on-going review." %}
 
-The Audit and Transparency service will send a request to the Spine to retrieve the audit data.
+## Search Audits ##
 
-The request will be submitted via an operation and it will be defined using the FHIR OperationDefinition resource. This resource will allow you to define the parameters to send to the Spine and also defines the output resource.
+The Audit and Transparency Service will send a request to the Spine to retrieve the audit data. This can be done using a RESTful interaction.
 
-The image below illustrates the flow of data to and from the Spine.
+<div markdown="span" class="alert alert-success" role="alert">
+GET [baseUrl]/AuditEvent?entity=[Patient Number]&_include=AuditEvent:patient&_format=json</div>
 
-<img src="images/atfs/atfs-operation.png">
 
-More information about the OperationDefinition resource can be found [here]().
+<pre class="highlight"><code><span class="err">GET [baseUrl]/{{include.content}}AuditEvent?entity=112112112112&_include=AuditEvent:patient&_format=json
+</span></code>
+
+Returns a `Bundle` of all audit entries for a Patient with an NHS Number of 112112112112</pre>

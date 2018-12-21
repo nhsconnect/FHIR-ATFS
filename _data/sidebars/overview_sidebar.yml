@@ -34,7 +34,7 @@ entries:
       output: web 
           
       
-  - title: FHIR Resources
+  - title: Resources
     output: web
     folderitems:
     - title: Overview
@@ -42,9 +42,6 @@ entries:
       output: web
     - title: AuditEvent
       url: /atfs_auditevent.html
-      output: web
-    - title: OperationDefinition
-      url: /atfs_operationdefinition.html
       output: web
     - title: Organization
       url: /atfs_organization.html

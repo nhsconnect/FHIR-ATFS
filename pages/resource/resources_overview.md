@@ -8,38 +8,19 @@ summary: "This page provides an overview of the FHIR STU3 Resources that are req
 
 {% include important.html content="This site is under development by NHS Digital, It is advised not to develop against these specifications until a formal announcement has been made." %}
 
-## Resource Association ##
+
+## Resource API Structure ##
+
+This diagram illustrates the FHIR resources used and how they are linked in the response.
 
 <img src="images/atfs/atfs-resources.png">
 
+## Resource APIs ## 
 
-## Field mappings ##
+This section lists the resources used in the ATFS API that are covered within this Implementation Guide.
 
-The table below shows the data retrieved with the FHIR resource mappings.
-
-|**Field**|**Location**|**FHIR Resource**|**Element**|
-|Surname|PDS|Patient|name.family|
-|First name|PDS|Patient|name.given|
-|NHS Number|PDS| Patient|identifier(nhsNumber)|
-|Date of Birth|PDS|Patient|birthDate|
-|Place of Birth|PDS|Patient|birthPlace|
-|Address|PDS|Patient|address|
-|Postcode|PDS|Patient|address.postalCode|
-|Registered GP|PDS|Patient|generalPractitioner|
-|GP Practice code|PDS|Organization|generalPractitioner.reference(Organization)|
-|Nominated Pharmacy|PDS|Patient|nominatedPharmacy|
-|Pharmacy code|PDS|Organization|nominatedPharmacy.reference(Organization)|
-|||||
-|Organisation Code|ODS|Organization|identifier(odsOrganisationCode)|
-|Organisation Name|ODS|Organization|name|
-|Organisation Address|ODS|Organization|address|
-|Organisation Postcode|ODS|Organization|address.postalCode|
-|Organisation Telephone|ODS|Organization|telecom|
-|Organisation Status|ODS|Organization|?|
-|Organisation Prescribing Setting|ODS|?||
-|||||
-|Date Time|Spine|AuditEvent|recorded|
-|User ID|Spine|AuditEvent|agent.userId|
-|User Name|Spine|AuditEvent|agent.name|
-|Business Type|Spine|AuditEvent|businessType|
-|Service|Spine|AuditEvent|spineService|
+|**Resource**|
+|AuditEvent|
+|Patient|
+|ValueSet|
+|CodeSystem|
