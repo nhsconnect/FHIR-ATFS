@@ -3,7 +3,7 @@ title: Resources Overview
 keywords: getcarerecord, structured, rest, resource
 sidebar: foundations_sidebar
 permalink: resource_overview.html
-summary: "This page provides an overview of the FHIR STU3 Resources that are required to build the required API."
+summary: "This page provides an overview of the FHIR Resources that are required to build the required API."
 ---
 
 {% include important.html content="This site is under development by NHS Digital, It is advised not to develop against these specifications until a formal announcement has been made." %}
@@ -20,7 +20,8 @@ This diagram illustrates the FHIR resources used and how they are linked in the 
 This section lists the resources used in the ATFS API that are covered within this Implementation Guide.
 
 |**Resource**|
-|AuditEvent|
-|Patient|
-|ValueSet|
-|CodeSystem|
+|[AuditEvent](atfs_auditevent.html)|
+|[CodeSystem](atfs_codesystem.html)|
+|[Organization](atfs_organization.html)|
+|[Patient](atfs_patient.html)|
+|[ValueSet](atfs_valueset.html)|

@@ -8,8 +8,4 @@ summary: Demographics and other administrative information about an individual r
 
 {% include important.html content="This site is under development by NHS Digital, It is advised not to develop against these specifications until a formal announcement has been made." %}
 
-{% include custom/fhir.reference.html resource="Organization" page="CareConnect-Organization-1" fhirname="Organization" fhirlink="organization.html" content="-" userlink="" %}
-
-## FHIR Elements ##
-
-The following FHIR elements have been identified as key to the implementation:
+All reference to the Organization resource will be handled by the ODS API. More details can be found [here](https://developer.nhs.uk/apis/ods/).

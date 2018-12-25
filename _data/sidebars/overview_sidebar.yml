@@ -43,13 +43,18 @@ entries:
     - title: AuditEvent
       url: /atfs_auditevent.html
       output: web
+    - title: CodeSystem
+      url: /atfs_codesystem.html
+      output: web
     - title: Organization
       url: /atfs_organization.html
       output: web
     - title: Patient
       url: /atfs_patient.html
       output: web
-
+    - title: ValueSet
+      url: /atfs_valueset.html
+      output: web
   
   - title: Help & Support
     output: web
