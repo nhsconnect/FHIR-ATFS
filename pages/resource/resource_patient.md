@@ -53,13 +53,13 @@ The following FHIR elements have been identified as key to the implementation:
 </tr>
 <tr>
     <td><code class="highlighter-rouge">generalPractitioner</code></td>
-    <td><code class="highlighter-rouge">Reference(Organization)[resource_organization.html]</code></td>
+    <td><code class="highlighter-rouge">Reference <a href="atfs_organization.html">Organization</a></code></td>
     <td>Registered GP</td>
     <td>Patient.generalPractitioner.display<br/>Patient.generalPractitioner.reference</td>
 </tr>
 <tr>
     <td><code class="highlighter-rouge">nominatedPharmacy</code></td>
-    <td><code class="highlighter-rouge">Reference(Organization)[resource_organization.html]</code></td>
+    <td><code class="highlighter-rouge">Reference <a href="atfs_organization.html">Organization</a></code></td>
     <td>Nominated Pharmacy</td>
     <td>Patient.nominatedPharmacy.display<br/>Patient.nominatedPharmacy.reference</td>
 </tr>

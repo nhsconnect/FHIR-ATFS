@@ -1,5 +1,5 @@
 ---
-title: Foundation | ValueSet
+title: ValueSet | Audit & Transparency API
 keywords: foundations, fhir
 tags: [foundation,use_case,fhir,rest,api,noccprofile]
 sidebar: overview_sidebar
@@ -9,7 +9,7 @@ summary: A ValueSet selects a set of codes from those defined by one or more cod
 
 {% include custom/search.warnbanner.html %}
 
-{% include custom/fhir.referencemin.html resource="[ODS API Organization Role](https://fhir.nhs.uk/STU3/ValueSet/ODSAPI-OrganizationRole-1)" resource1="[ODS API Organization Record Class](https://fhir.nhs.uk/STU3/ValueSet/ODSAPI-OrganizationRecordClass-1)" page="" fhirlink="[ValueSet](http://www.hl7.org/fhir/stu3/valueset.html)" content="User Stories" userlink="" %}
+{% include custom/fhir.referencemin.html resource="[ATFS Business Message Type](https://directory.spineservices.nhs.uk/STU3/ValueSet/ATFS-BusinessMessageType-1)" resource1="[ATFS Service](https://fhir.nhs.uk/STU3/ValueSet/ATFS-AuditService-1)" page="" fhirlink="[ValueSet](http://www.hl7.org/fhir/stu3/valueset.html)" content="User Stories" userlink="" %}
 
 
 ## 1. Read ##
@@ -23,11 +23,10 @@ GET [baseUrl]/ValueSet/[id]</div>
 
 ### 2.1 Request Query ###
 
-Return the ValueSet ODS lookup API 'ODS API Organization Role'. Replace 'baseUrl' with the actual base Url of the FHIR Server.
+Return the ValueSet lookup API 'ATFS Audit Service'. Replace 'baseUrl' with the actual base Url of the FHIR Server.
 
-#### 2.1.1. cURL ####
-
-{% include custom/embedcurl.html title="Read ODS lookup API 'ODS API Organization Role ValueSet'" command="curl -H 'Accept: application/fhir+xml' -X GET  'https://fhir.nhs.uk/STU3/ValueSet/ODSAPI-OrganizationRole-1'" %}
+<div markdown="span" class="alert alert-success" role="alert">
+GET https://fhir.nhs.uk/STU3/CodeSystem/ATFS-AuditService-1</div>
 
 {% include custom/search.response.headers.html resource="ValueSet"  %}
 

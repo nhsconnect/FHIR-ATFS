@@ -42,13 +42,13 @@ The following FHIR elements have been identified as key to the implementation:
 <tr>
     <td><code class="highlighter-rouge">type</code></td>
     <td><code class="highlighter-rouge">Coding</code></td>
-    <td>The type of audit record. This will hold the service name.</td>
+    <td>The type of audit record. This will hold the service name. <br/> <a href="https://fhir.nhs.uk/STU3/ValueSet/ATFS-Service-1">Service valueset</a></td>
     <td>AuditEvent.type</td>
 </tr>
 <tr>
     <td><code class="highlighter-rouge">subtype</code></td>
     <td><code class="highlighter-rouge">Coding</code></td>
-    <td>The business message type</td>
+    <td>The business message type. <br/> <a href="https://fhir.nhs.uk/STU3/ValueSet/ATFS-BusinessMessageType-1">Message Type valueset</a></td>
     <td>AuditEvent.subtype</td>
 </tr>
 </table>
