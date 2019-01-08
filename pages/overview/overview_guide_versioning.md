@@ -8,9 +8,25 @@ summary: An overview of this implementation guide is versioned.
 
 {% include important.html content="Site under development by NHS Digital, It is advised not to develop against these specifications until a formal announcement has been made." %}
 
-## Guide Versioning ##
+## 1. Product Versioning ##
+
+### 1.1.0 Semantic Versioning ###
+Versioning of each technical “Product” or asset (i.e. API, Design Principle(s), Data Library) is managed using [Semantic Versioning 2.0.0](http://semver.org/).
 
 
-A full list of Guide Versioning terms used by NHS Projects can be found at the link below:
+Given a version number MAJOR.MINOR.PATCH, increment the:
 
-<a href="https://nhsconnect.github.io/fhir-policy/publication.html" target="_blank">Publication Requirements</a>
+- MAJOR version when you make incompatible API changes,
+- MINOR version when you add functionality in a backwards-compatible manner, and
+- PATCH version when you make backwards-compatible bug fixes.
+
+Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+
+A pre-release version MAY be denoted by appending a hyphen and a series of dot separated identifiers immediately following patch version. Refer to [Semantic Versioning - Item 9](http://semver.org/#spec-item-9){:target="_blank"}) 
+
+For examples: 1.0.0-alpha.1 is a valid pre-release version.
+
+### 1.2.0 Pre-release Labels ###
+
+When FHIR API implementation guides are published, they MUST have an associated maturity label. These labels are based on the GDS development process stages and MUST conform to one of the labels defined in the [FHIR-PUB-04: FHIR API Maturity](https://nhsconnect.github.io/fhir-policy/publication.html) ‘Publication Requirements’ section of the [NHS FHIR Policy](https://nhsconnect.github.io/fhir-policy/index.html).
+
